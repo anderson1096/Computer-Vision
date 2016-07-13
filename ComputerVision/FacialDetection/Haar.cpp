@@ -4,20 +4,19 @@
 #include "opencv2/highgui/highgui.hpp"
 #include "iostream"
 #include <stdio.h>
-
+#include <time.h>
 
 using namespace std;
 using namespace cv;
 
 CascadeClassifier face_cascade;
-string faces_source = "/usr/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml";
+string faces_source = "/home/cctva/opencv/opencv-2.4.9/data/haarcascades/haarcascade_frontalface_alt.xml";
 
 int main(int argc, char  **argv) {
 
-  
+  clock_t start, end;
 
-
-  
+  start = clock();
   vector<Rect> faces; //Vector para almacenar las caras detectadas
   char *imageName = argv[1];
 
@@ -49,9 +48,12 @@ int main(int argc, char  **argv) {
     Rect r = faces[i];
     rectangle(img, Point(r.x, r.y), Point(r.x + r.width, r.y + r.height), CV_RGB(0, 255, 0));
   }
-  
-  imshow("Detection", img);
-  waitKey();
+
+  end = clock();
+  cout << "Tiempo CPU: " << (double)(end - start)/CLOCKS_PER_SEC << endl;
+
+  //imshow("Detection", img);
+  //waitKey();
 
   return 0;
 }
