@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Desktop/Anderson/AJa/HPC/ComputerVision/FacialDetection_GPU/Haar_GPU.cpp
+iostream
+-
+stdio.h
+-
+opencv2/core/core.hpp
+-
+opencv2/contrib/contrib.hpp
+-
+opencv2/objdetect/objdetect.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/gpu/gpu.hpp
+-
+time.h
+-
+

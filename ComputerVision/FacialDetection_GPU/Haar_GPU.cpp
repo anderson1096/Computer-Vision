@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 #include <opencv2/core/core.hpp>
 #include <opencv2/contrib/contrib.hpp>
 #include <opencv2/objdetect/objdetect.hpp>
@@ -48,9 +49,9 @@ int main(int argc, char **argv) {
 
 
       Mat obj_host;
-      if(num_faces != 0){
-         faces.colRange(0, num_faces).download(obj_host);
-         Rect *cfaces = obj_host.ptr<Rect>();
+     
+      faces.colRange(0, num_faces).download(obj_host);
+      Rect *cfaces = obj_host.ptr<Rect>();
       
 
       // recuperando las caras y dibujando los rectangulos
@@ -60,19 +61,15 @@ int main(int argc, char **argv) {
          Point pt2(pt1.x+sz.width, pt1.y+sz.height);
          rectangle(src_host, pt1, pt2, CV_RGB(0, 255, 0));
        }
-       }
-      cout << num_faces << endl;
-
+         
        end = clock();
 
-       double time_used = (end - start)/CLOCKS_PER_SEC;
-
        //mostrando el tiempo
-       cout<< "Tiempo GPU : " << time_used << endl;
+       printf("Tiempo GPU: %f\n",(double)(end - start)/CLOCKS_PER_SEC);
 
        //Mostrando el resultado
-       imshow("Detection_GPU",src_host);
-       waitKey();
+       /*imshow("Detection_GPU",src_host);
+       waitKey();*/
 
      }
 
