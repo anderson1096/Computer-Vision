@@ -1,1 +1,0 @@
-/home/anderson/Escritorio/HPC/EscalaGrises/build/CMakeFiles/Escala-Grises.dir
