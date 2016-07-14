@@ -1,1 +1,0 @@
-/home/cctva/Escritorio/Anderson/HPC/ComputerVision/FacialDetection/build/CMakeFiles/Haar.dir
