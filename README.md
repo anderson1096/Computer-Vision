@@ -1,7 +1,9 @@
 # HPC
 Algoritmos de Vision por Computador.
 
-- Anderson
-- Steven
-- Mosquera
-- Mosquera
+1. Anderson
+2. Steven
+3. Apellido
+  - Mosquera
+  - Mosquera
+
