@@ -1,11 +1,8 @@
 # Anderson
-_Descripción del Archivo_
-####### Descripción del archivo
-*Descripción del Archivo*
-*Comer
-*Dormir
-	*Cama
-	*Piso
 
+
+
+![GitHub Logo](/home/cctva/Escritorio/Anderson/HPC/ComputerVision/FacialDetection/imagenes/rostro1.jpg)
+Format: ![Alt Text](url)
 
 
