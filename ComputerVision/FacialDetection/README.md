@@ -24,4 +24,4 @@
   [3]: Imagenes/acel.png
 
 
-Para mayor precisión sobre el tamaño de las imagenes o tiempos, los datos pueden ser observados en el archivo _Tiempos.xlsx_.
+Para mayor precisión sobre el tamaño de las imagenes o tiempos, los datos pueden ser observados en el archivo **Tiempos.xlsx**.
