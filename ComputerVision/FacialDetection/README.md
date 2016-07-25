@@ -18,6 +18,10 @@
 
   Después de realizadas las pruebas sobre las 14 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración.
 
+  **NOTA:** _Los datos del eje vertical hacen referencia al tiempo (s) y los del eje horizontal al número de la imagen._
+
+
+
   | [Tiempos CPU][1]  | [Tiempos GPU][2] |   [Aceleración][3] |
   [1]: Imagenes/cpu.png
   [2]: Imagenes/gpu.png
