@@ -19,7 +19,6 @@
   Después de realizadas las pruebas sobre las 14 imagenes en las dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles. Estos son los resultados:
 
   ![Imagen 1][1] ![Imagen 2] [2]
-  [1]: Imagenes/cpu.png
-  [2]: Imagenes/cpu.png
+  [1]: Imagenes/cpu.png [2]: Imagenes/gpu.png
 
-  "resultados"
+  
