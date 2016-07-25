@@ -1,6 +1,6 @@
 ## Descripción General
 
-  Usando el algoritmo de *HAAR* de la librería de OpenCV para la detección facial, se realizaron pruebas sobre 15 imagenes de diferentes dimensiones contrastando rendimiento entre la CPU (Intel NUC) y la GPU (Jetson TK1).
+  Usando el algoritmo de *HAAR* de la librería de OpenCV para la detección facial, se realizaron pruebas sobre 14 imagenes de diferentes dimensiones contrastando rendimiento entre la CPU (Intel NUC) y la GPU (Jetson TK1).
 
 ## Algoritmo
 
@@ -12,4 +12,14 @@
 
   ![proceso](http://robologs.net/wp-content/uploads/2014/05/haarcascade-300x300.jpg "proceso")
 
-  EL algoritmo tiene un porcentaje de acierto bastante alto, además solo hace el procedimiento sobre objetos que podrían ser rostros.
+  El algoritmo tiene un porcentaje de acierto bastante alto, además solo hace el procedimiento sobre objetos que podrían ser rostros.
+
+## Gráficos y Resultados
+
+  Después de realizadas las pruebas sobre las 14 imagenes en las dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles. Estos son los resultados:
+
+  ![Imagen 1][1] ![Imagen 2] [2]
+  [1]: Imagenes/cpu.png
+  [2]: Imagenes/cpu.png
+
+  "resultados"
