@@ -16,4 +16,12 @@
 
 ## Resultados
 
-  Después de realizadas las pruebas sobre las 14 imagenes en las dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración, las cuales pueden ser observadas en el archivo _Tiempos.xlsx_
+  Después de realizadas las pruebas sobre las 14 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración.
+
+  [imagen 1][1]  [imagen 2][2]  [imagen 3][3]
+  [1]: Imagenes/cpu.png
+  [2]: Imagenes/gpu.png
+  [3]: Imagenes/acel.png
+
+
+Para mayor precisión sobre el tamaño de las imagenes o tiempos, los datos pueden ser observados en el archivo _Tiempos.xlsx_.
