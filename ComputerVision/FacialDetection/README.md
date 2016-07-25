@@ -14,11 +14,11 @@
 
   El algoritmo tiene un porcentaje de acierto bastante alto, además solo hace el procedimiento sobre objetos que podrían ser rostros.
 
-## Resultados
+## Gráficas y Resultados
 
   Después de realizadas las pruebas sobre las 14 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración.
 
-  [imagen 1][1]  [imagen 2][2]  [imagen 3][3]
+  [Tiempos CPU][1]  [Tiempos GPU][2]  [Aceleración][3]
   [1]: Imagenes/cpu.png
   [2]: Imagenes/gpu.png
   [3]: Imagenes/acel.png
