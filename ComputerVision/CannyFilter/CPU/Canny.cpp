@@ -21,12 +21,11 @@ int main(int argc, char **argv){
 
   //Pasando la imagen cargada a escala de Grises
   cvtColor(src, gray, CV_BGR2GRAY);
-  
+
   //Haciendo la detección de Bordes
   Canny(gray, edges, 50, 150, 3);
 
   imshow("Filtro Canny", edges);
-  imshow("Imagen Original", src);
   waitKey();
 
   return 0;
