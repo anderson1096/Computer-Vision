@@ -8,11 +8,13 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, char **argv){
+  clock_t start, end;
   //definiendo las imagenes que usaremos
   Mat src, edges, gray;
 
   //Cargando las imagenes
   char *imageName = argv[1];
+  start = clock();
   src = imread(imageName);
   if(src.empty()){
     printf("Imagen no cargada\n");
@@ -24,9 +26,10 @@ int main(int argc, char **argv){
 
   //Haciendo la detección de Bordes
   Canny(gray, edges, 50, 150, 3);
-
-  imshow("Filtro Canny", edges);
-  waitKey();
+  end = clock();
+  printf("Tiempo CPU: %.5f\n",(double)(end - start)/CLOCKS_PER_SEC);
+  //imshow("Filtro Canny", edges);
+  //waitKey();
 
   return 0;
 }

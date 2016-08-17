@@ -1,0 +1,1 @@
+/home/cctva/Escritorio/Anderson/HPC/ComputerVision/CannyFilter/CPU/build/CMakeFiles/Canny.dir
