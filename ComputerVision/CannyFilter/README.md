@@ -9,7 +9,7 @@ El **filtro de Canny**, fue inventado por John F. Canny en 1986. Este algoritmo 
   - **Respuesta Mínima:** El borde de la imagen debe ser marcado una vez (evitar redundancia) además no se debe marcar bordes falsos generados por el ruido.
 
 ### Fases
-  1. **Suavizar:** Básicamente se desenfoca la imagen para eliminar el ruido, esta etapa se realiza mediante el siguiente filtro gausiano.
+  1. **Suavizar:** Básicamente se desenfoca la imagen para eliminar el ruido, esta etapa se realiza mediante el siguiente filtro gaussiano.
 
   ![Filtro Gaussiano](https://upload.wikimedia.org/math/a/6/3/a63d6900a46d84bb24942ab0123f3791.png)  
 

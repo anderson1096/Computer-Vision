@@ -16,7 +16,7 @@
 
 ## Gráficas y Resultados
 
-  Después de realizadas las pruebas sobre las 14 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración.
+  Después de realizadas las pruebas sobre las 14 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixels, luego se generaron gráficas de tiempos y aceleración.
 
   _**NOTA:**_ _Los datos del eje vertical hacen referencia al tiempo (s) y los del eje horizontal al número de la imagen._
 
