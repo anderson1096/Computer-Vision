@@ -36,4 +36,11 @@ El **filtro de Canny**, fue inventado por John F. Canny en 1986. Este algoritmo 
 
   5. **Seguimiento por Histeresis:** Finalmente los bordes fuertes son probablemente bordes pertenecientes a la imagen original, por lo tanto se conservan, pero los bordes debiles pueden ser causados por ruido o variación de color. Por lo tanto se hace un seguimiento para ver que bordes débiles están conectados a los bordes fuertes de la imagen los cuales serán los bordes que se conservarán los que no se conecten con un borde fuerte, serán suprimidos. Para esta etapa se realiza el seguimiento con (Binary Large Object) [BLOOB](https://es.wikipedia.org/wiki/Binary_large_object).
 
-  
+## Gráficas y Resultados
+
+  Después de realizadas las pruebas sobre las 15 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración. **Aunque cabe aclarar que no hubo aceleración ya que la plataforma Intel NUC fue mucho mas rápida que la Jetson TK1.**
+
+  _**NOTA:**_ _Los datos del eje vertical hacen referencia al tiempo (s) y los del eje horizontal al número de la imagen._
+
+
+  Para mayor precisión sobre el tamaño de las imagenes o tiempos, los datos pueden ser observados en el archivo **TiemposCanny.xlsx**.
