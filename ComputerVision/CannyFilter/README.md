@@ -38,7 +38,7 @@ El **filtro de Canny**, fue inventado por John F. Canny en 1986. Este algoritmo 
 
 ## Gráficas y Resultados
 
-  Después de realizadas las pruebas sobre las 15 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración. **Aunque cabe aclarar que no hubo aceleración ya que la plataforma Intel NUC fue mucho mas rápida que la Jetson TK1.**
+  Después de realizadas las pruebas sobre las 15 imagenes en los dos dispositivos, se tomaron los tiempos de ejecución ordenados ascendentemente según el tamaño de la imagen en pixeles, luego se generaron gráficas de tiempos y aceleración. _**Aunque cabe aclarar que no hubo aceleración ya que la plataforma Intel NUC fue mucho mas rápida que la Jetson TK1.**_
 
   _**NOTA:**_ _Los datos del eje vertical hacen referencia al tiempo (s) y los del eje horizontal al número de la imagen._
 
