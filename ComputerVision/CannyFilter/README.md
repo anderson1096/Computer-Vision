@@ -34,7 +34,7 @@ El **filtro de Canny**, fue inventado por John F. Canny en 1986. Este algoritmo 
 
   4. **Umbralización Doble:** En esta fase se eliminan los bordes que no estén en el umbral, es decir los bordes debiles. Para lo anterior se tiene un umbral máximo y mínimo, los bordes que sean mayor al umbral máximo se marcan como fuertes y los bordes con valor más pequeño al umbral mínimo seran eliminados de la imagen y los que esten entre el mínimo y el máximo se marcan como bordes débiles.
 
-  5. **Seguimiento por Histeresis:** Finalmente los bordes fuertes son probablemente bordes pertenecientes a la imagen original, por lo tanto se conservan, pero los bordes debiles pueden ser causados por ruido o variación de color. Por lo tanto se hace un seguimiento para ver que bordes débiles están conectados a los bordes fuertes de la imagen los cuales serán los bordes que se conservarán los que no se conecten con un borde fuerte, serán suprimidos. Para esta etapa se realiza el seguimiento con (Binary Large Object) [BLOOB](https://es.wikipedia.org/wiki/Binary_large_object).
+  5. **Seguimiento por Histeresis:** Finalmente los bordes fuertes son probablemente bordes pertenecientes a la imagen original, por lo tanto se conservan, pero los bordes debiles pueden ser causados por ruido o variación de color. Por lo tanto se hace un seguimiento para ver que bordes débiles están conectados a los bordes fuertes de la imagen los cuales serán los bordes que se conservarán los que no se conecten con un borde fuerte, serán suprimidos. Para esta etapa se realiza el seguimiento con (Binary Large Object) [BLOB](https://es.wikipedia.org/wiki/Binary_large_object).
 
 ## Gráficas y Resultados
 
